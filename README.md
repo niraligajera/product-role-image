@@ -1,0 +1,1 @@
+# product-role-image
