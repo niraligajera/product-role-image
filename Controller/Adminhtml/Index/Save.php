@@ -1,5 +1,5 @@
 <?php
-namespace Ng\ProductRoleImage\Controller\Adminhtml\Index;
+namespace Ethnic\ProductRoleImage\Controller\Adminhtml\Index;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
@@ -7,7 +7,7 @@ use Magento\Framework\Controller\ResultInterface;
 use Magento\Framework\Controller\Result\RedirectFactory;
 use Magento\Eav\Setup\EavSetupFactory;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
-use Ng\ProductRoleImage\Model\ProductRoleFactory;
+use Ethnic\ProductRoleImage\Model\ProductRoleFactory;
 
 /**
  * Class Save

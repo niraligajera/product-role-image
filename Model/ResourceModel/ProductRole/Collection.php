@@ -1,9 +1,9 @@
 <?php
-namespace Ng\ProductRoleImage\Model\ResourceModel\ProductRole;
+namespace Ethnic\ProductRoleImage\Model\ResourceModel\ProductRole;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
-use Ng\ProductRoleImage\Model\ProductRole as ProductRoleModel;
-use Ng\ProductRoleImage\Model\ResourceModel\ProductRole as ProductRoleResource;
+use Ethnic\ProductRoleImage\Model\ProductRole as ProductRoleModel;
+use Ethnic\ProductRoleImage\Model\ResourceModel\ProductRole as ProductRoleResource;
 
 /**
  * Class Collection

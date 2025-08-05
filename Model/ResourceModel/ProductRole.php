@@ -1,5 +1,5 @@
 <?php
-namespace Ng\ProductRoleImage\Model\ResourceModel;
+namespace Ethnic\ProductRoleImage\Model\ResourceModel;
 
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 
@@ -16,6 +16,6 @@ class ProductRole extends AbstractDb
      */
     protected function _construct(): void
     {
-        $this->_init('ng_product_image_role', 'id'); // Table name and primary key
+        $this->_init('ethnic_product_image_role', 'id'); // Table name and primary key
     }
 }

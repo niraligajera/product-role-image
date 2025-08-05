@@ -4,7 +4,7 @@
 
     <router id="admin">
         <route id="productroleimage" frontName="productroleimage">
-            <module name="Ng_ProductRoleImage" />
+            <module name="Ethnic_ProductRoleImage" />
         </route>
     </router>
 </config>

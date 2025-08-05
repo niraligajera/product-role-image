@@ -5,8 +5,8 @@
     <!-- Grid Configuration -->
     <argument name="data" xsi:type="array">
         <item name="js_config" xsi:type="array">
-            <item name="provider" xsi:type="string">ng_productroleimage_listing.ng_productroleimage_listing_data_source</item>
-            <item name="deps" xsi:type="string">ng_productroleimage_listing.ng_productroleimage_listing_data_source</item>
+            <item name="provider" xsi:type="string">ethnic_productroleimage_listing.ethnic_productroleimage_listing_data_source</item>
+            <item name="deps" xsi:type="string">ethnic_productroleimage_listing.ethnic_productroleimage_listing_data_source</item>
         </item>
         <item name="spinner" xsi:type="string">spinner_columns</item>
         <item name="buttons" xsi:type="array">
@@ -20,10 +20,10 @@
     </argument>
 
     <!-- Data Source -->
-    <dataSource name="ng_productroleimage_listing_data_source">
+    <dataSource name="ethnic_productroleimage_listing_data_source">
         <argument name="dataProvider" xsi:type="configurableObject">
-            <argument name="class" xsi:type="string">Ng\ProductRoleImage\Ui\DataProvider\ProductRole\DataProvider</argument>
-            <argument name="name" xsi:type="string">ng_productroleimage_listing_data_source</argument>
+            <argument name="class" xsi:type="string">Ethnic\ProductRoleImage\Ui\DataProvider\ProductRole\DataProvider</argument>
+            <argument name="name" xsi:type="string">ethnic_productroleimage_listing_data_source</argument>
             <argument name="primaryFieldName" xsi:type="string">id</argument>
             <argument name="requestFieldName" xsi:type="string">id</argument>
             <argument name="data" xsi:type="array">
@@ -50,7 +50,7 @@
         <!-- Mass Actions -->
         <massaction name="listing_massaction">
             <argument name="data" xsi:type="array">
-                <item name="selectProvider" xsi:type="string">ng_productroleimage_listing.ng_productroleimage_listing.spinner_columns.ids</item>
+                <item name="selectProvider" xsi:type="string">ethnic_productroleimage_listing.ethnic_productroleimage_listing.spinner_columns.ids</item>
                 <item name="displayArea" xsi:type="string">bottom</item>
                 <item name="indexField" xsi:type="string">id</item>
             </argument>
@@ -78,7 +78,7 @@
                     <item name="storageConfig" xsi:type="array">
                         <item name="saveUrl" xsi:type="url" path="mui/bookmark/save"/>
                         <item name="deleteUrl" xsi:type="url" path="mui/bookmark/delete"/>
-                        <item name="namespace" xsi:type="string">ng_productroleimage_listing</item>
+                        <item name="namespace" xsi:type="string">ethnic_productroleimage_listing</item>
                     </item>
                 </item>
             </argument>
@@ -89,7 +89,7 @@
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="columnsData" xsi:type="array">
-                        <item name="provider" xsi:type="string">ng_productroleimage_listing.ng_productroleimage_listing.spinner_columns</item>
+                        <item name="provider" xsi:type="string">ethnic_productroleimage_listing.ethnic_productroleimage_listing.spinner_columns</item>
                     </item>
                     <item name="component" xsi:type="string">Magento_Ui/js/grid/controls/columns</item>
                     <item name="displayArea" xsi:type="string">dataGridActions</item>
@@ -104,13 +104,13 @@
                     <item name="displayArea" xsi:type="string">dataGridFilters</item>
                     <item name="dataScope" xsi:type="string">filters</item>
                     <item name="storageConfig" xsi:type="array">
-                        <item name="provider" xsi:type="string">ng_productroleimage_listing.ng_productroleimage_listing.listing_top.bookmarks</item>
+                        <item name="provider" xsi:type="string">ethnic_productroleimage_listing.ethnic_productroleimage_listing.listing_top.bookmarks</item>
                         <item name="namespace" xsi:type="string">current.filters</item>
                     </item>
                     <item name="childDefaults" xsi:type="array">
-                        <item name="provider" xsi:type="string">ng_productroleimage_listing.ng_productroleimage_listing.listing_top.listing_filters</item>
+                        <item name="provider" xsi:type="string">ethnic_productroleimage_listing.ethnic_productroleimage_listing.listing_top.listing_filters</item>
                         <item name="imports" xsi:type="array">
-                            <item name="visible" xsi:type="string">ng_productroleimage_listing.ng_productroleimage_listing.listing_top.bookmarks:current.columns.${ $.index }.visible</item>
+                            <item name="visible" xsi:type="string">ethnic_productroleimage_listing.ethnic_productroleimage_listing.listing_top.bookmarks:current.columns.${ $.index }.visible</item>
                         </item>
                     </item>
                 </item>
@@ -150,10 +150,10 @@
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="storageConfig" xsi:type="array">
-                        <item name="provider" xsi:type="string">ng_productroleimage_listing.ng_productroleimage_listing.listing_top.bookmarks</item>
+                        <item name="provider" xsi:type="string">ethnic_productroleimage_listing.ethnic_productroleimage_listing.listing_top.bookmarks</item>
                         <item name="namespace" xsi:type="string">current.paging</item>
                     </item>
-                    <item name="selectProvider" xsi:type="string">ng_productroleimage_listing.ng_productroleimage_listing.spinner_columns.ids</item>
+                    <item name="selectProvider" xsi:type="string">ethnic_productroleimage_listing.ethnic_productroleimage_listing.spinner_columns.ids</item>
                     <item name="displayArea" xsi:type="string">bottom</item>
                 </item>
             </argument>
@@ -214,7 +214,7 @@
         </column>
 
         <!-- Action Column -->
-        <actionsColumn name="actions" class="Ng\ProductRoleImage\Ui\Component\Listing\Column\ProductRoleActions">
+        <actionsColumn name="actions" class="Ethnic\ProductRoleImage\Ui\Component\Listing\Column\ProductRoleActions">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="indexField" xsi:type="string">product_role_id</item>

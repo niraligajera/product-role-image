@@ -1,11 +1,11 @@
 <?php
-namespace Ng\ProductRoleImage\Controller\Adminhtml\Index;
+namespace Ethnic\ProductRoleImage\Controller\Adminhtml\Index;
 
 use Magento\Backend\App\Action;
 use Magento\Framework\Controller\ResultInterface;
 use Magento\Framework\Controller\ResultFactory;
-use Ng\ProductRoleImage\Model\ResourceModel\ProductRole\CollectionFactory;
-use Ng\ProductRoleImage\Model\ProductRoleFactory;
+use Ethnic\ProductRoleImage\Model\ResourceModel\ProductRole\CollectionFactory;
+use Ethnic\ProductRoleImage\Model\ProductRoleFactory;
 
 /**
  * Class MassDelete

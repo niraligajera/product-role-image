@@ -1,5 +1,5 @@
 <?php
-namespace Ng\ProductRoleImage\Setup\Patch\Schema;
+namespace Ethnic\ProductRoleImage\Setup\Patch\Schema;
 
 use Magento\Framework\Setup\Patch\SchemaPatchInterface;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
@@ -7,7 +7,7 @@ use Magento\Framework\DB\Ddl\Table;
 
 /**
  * Class CreateTable
- * Schema patch to create `ng_product_image_role` table.
+ * Schema patch to create `ethnic_product_image_role` table.
  */
 class CreateTable implements SchemaPatchInterface
 {
@@ -39,8 +39,8 @@ class CreateTable implements SchemaPatchInterface
 
         $setup->startSetup();
 
-        if (!$connection->isTableExists('ng_product_image_role')) {
-            $table = $connection->newTable('ng_product_image_role')
+        if (!$connection->isTableExists('ethnic_product_image_role')) {
+            $table = $connection->newTable('ethnic_product_image_role')
                 ->addColumn(
                     'id',
                     Table::TYPE_INTEGER,

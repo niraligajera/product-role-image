@@ -4,13 +4,13 @@
 
     <argument name="data" xsi:type="array">
         <item name="js_config" xsi:type="array">
-            <item name="provider" xsi:type="string">ng_productroleimage_form.ng_productroleimage_form_data_source</item>
-            <item name="deps" xsi:type="string">ng_productroleimage_form.ng_productroleimage_form_data_source</item>
+            <item name="provider" xsi:type="string">ethnic_productroleimage_form.ethnic_productroleimage_form_data_source</item>
+            <item name="deps" xsi:type="string">ethnic_productroleimage_form.ethnic_productroleimage_form_data_source</item>
         </item>
         <item name="role" xsi:type="string" translate="true">Manage Product Image Role</item>
         <item name="config" xsi:type="array">
             <item name="dataScope" xsi:type="string">data</item>
-            <item name="namespace" xsi:type="string">ng_productroleimage_form</item>
+            <item name="namespace" xsi:type="string">ethnic_productroleimage_form</item>
         </item>
         <item name="template" xsi:type="string">templates/form/collapsible</item>
         <item name="buttons" xsi:type="array">
@@ -31,7 +31,7 @@
                         <item name="buttonAdapter" xsi:type="array">
                             <item name="actions" xsi:type="array">
                                 <item name="0" xsi:type="array">
-                                    <item name="targetName" xsi:type="string">ng_productroleimage_form.ng_productroleimage_form</item>
+                                    <item name="targetName" xsi:type="string">ethnic_productroleimage_form.ethnic_productroleimage_form</item>
                                     <item name="actionName" xsi:type="string">save</item>
                                     <item name="params" xsi:type="array">
                                         <item name="0" xsi:type="string">true</item>

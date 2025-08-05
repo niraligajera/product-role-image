@@ -1,8 +1,8 @@
 <?php
-namespace Ng\ProductRoleImage\Ui\DataProvider\ProductRole;
+namespace Ethnic\ProductRoleImage\Ui\DataProvider\ProductRole;
 
 use Magento\Ui\DataProvider\AbstractDataProvider;
-use Ng\ProductRoleImage\Model\ResourceModel\ProductRole\CollectionFactory;
+use Ethnic\ProductRoleImage\Model\ResourceModel\ProductRole\CollectionFactory;
 use Magento\Framework\View\Element\UiComponent\DataProvider\DataProviderInterface;
 
 /**
@@ -16,7 +16,7 @@ class FormDataProvider extends AbstractDataProvider implements DataProviderInter
     protected array $loadedData = [];
 
     /**
-     * @var \Ng\ProductRoleImage\Model\ResourceModel\ProductRole\Collection
+     * @var \Ethnic\ProductRoleImage\Model\ResourceModel\ProductRole\Collection
      */
     protected $collection;
 

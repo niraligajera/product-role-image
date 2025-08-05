@@ -5,6 +5,6 @@
  */
 var config = {
     deps: [
-        'Ng_ProductRoleImage/js/validation/label-validator'
+        'Ethnic_ProductRoleImage/js/validation/label-validator'
     ]
 };

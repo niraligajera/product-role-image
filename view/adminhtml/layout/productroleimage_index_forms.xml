@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
     Layout for Product Role Image Add Form
-    Renders the ng_productroleimage_form UI component inside the admin content container
+    Renders the ethnic_productroleimage_form UI component inside the admin content container
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
@@ -11,7 +11,7 @@
 
     <body>
         <referenceContainer name="content">
-            <uiComponent name="ng_productroleimage_form"/>
+            <uiComponent name="ethnic_productroleimage_form"/>
         </referenceContainer>
     </body>
 </page>

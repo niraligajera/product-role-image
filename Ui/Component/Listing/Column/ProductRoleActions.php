@@ -1,6 +1,6 @@
 <?php
 
-namespace Ng\ProductRoleImage\Ui\Component\Listing\Column;
+namespace Ethnic\ProductRoleImage\Ui\Component\Listing\Column;
 
 use Magento\Framework\UrlInterface;
 use Magento\Framework\View\Element\UiComponent\ContextInterface;

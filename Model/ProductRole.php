@@ -1,5 +1,5 @@
 <?php
-namespace Ng\ProductRoleImage\Model;
+namespace Ethnic\ProductRoleImage\Model;
 
 use Magento\Framework\Model\AbstractModel;
 use Magento\Catalog\Model\Product;
@@ -19,7 +19,7 @@ class ProductRole extends AbstractModel
     /**
      * @var string
      */
-    protected $_eventPrefix = 'ng_productroleimage';
+    protected $_eventPrefix = 'ethnic_productroleimage';
 
     /**
      * @var EavSetupFactory
@@ -63,7 +63,7 @@ class ProductRole extends AbstractModel
      */
     protected function _construct(): void
     {
-        $this->_init(\Ng\ProductRoleImage\Model\ResourceModel\ProductRole::class);
+        $this->_init(\Ethnic\ProductRoleImage\Model\ResourceModel\ProductRole::class);
     }
 
     /**

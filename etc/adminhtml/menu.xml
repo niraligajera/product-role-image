@@ -4,13 +4,13 @@
 
     <menu>
         <add 
-            id="Ng_ProductRoleImage::main_menu"
+            id="Ethnic_ProductRoleImage::main_menu"
             title="Product Role Image"
-            module="Ng_ProductRoleImage"
+            module="Ethnic_ProductRoleImage"
             sortOrder="100"
             parent="Magento_Backend::stores_attributes"
             action="productroleimage/index/index"
-            resource="Ng_ProductRoleImage::main_menu"
+            resource="Ethnic_ProductRoleImage::main_menu"
         />
     </menu>
 </config>

@@ -8,7 +8,7 @@
             <resource id="Magento_Backend::admin">
                 
                 <!-- Custom admin permission for Product Role Image management -->
-                <resource id="Ng_ProductRoleImage::main"
+                <resource id="Ethnic_ProductRoleImage::main"
                           title="Manage Product Role Images"
                           sortOrder="10"/>
                           

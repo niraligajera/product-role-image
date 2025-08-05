@@ -1,5 +1,5 @@
 <?php
-namespace Ng\ProductRoleImage\Controller\Adminhtml\Index;
+namespace Ethnic\ProductRoleImage\Controller\Adminhtml\Index;
 
 use Magento\Backend\App\Action;
 use Magento\Framework\View\Result\Page;
@@ -15,7 +15,7 @@ class Forms extends Action
     /**
      * Authorization resource
      */
-    public const ADMIN_RESOURCE = 'Ng_ProductRoleImage::main_menu';
+    public const ADMIN_RESOURCE = 'Ethnic_ProductRoleImage::main_menu';
 
     /**
      * @var PageFactory

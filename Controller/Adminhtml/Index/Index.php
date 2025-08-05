@@ -1,5 +1,5 @@
 <?php
-namespace Ng\ProductRoleImage\Controller\Adminhtml\Index;
+namespace Ethnic\ProductRoleImage\Controller\Adminhtml\Index;
 
 use Magento\Backend\App\Action;
 use Magento\Framework\View\Result\PageFactory;
@@ -39,7 +39,7 @@ class Index extends Action
     public function execute(): ResultInterface
     {
         $resultPage = $this->resultPageFactory->create();
-        $resultPage->setActiveMenu('Ng_ProductRoleImage::main_menu');
+        $resultPage->setActiveMenu('Ethnic_ProductRoleImage::main_menu');
         $resultPage->getConfig()->getTitle()->prepend(__('Product Role Image'));
 
         return $resultPage;
@@ -52,6 +52,6 @@ class Index extends Action
      */
     protected function _isAllowed(): bool
     {
-        return $this->_authorization->isAllowed('Ng_ProductRoleImage::main_menu');
+        return $this->_authorization->isAllowed('Ethnic_ProductRoleImage::main_menu');
     }
 }
